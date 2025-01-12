@@ -80,7 +80,7 @@ $('.testimonials-slider').owlCarousel({
 
 
 // Initialize EmailJS with your User ID
-emailjs.init('dIfvaw_eVzfUzZ28-'); // Replace with your EmailJS User ID
+emailjs.init('xZHAmNOZ37EXmxN51'); // Replace with your EmailJS User ID
 
 // Form submission handler
 document.getElementById('contact-form').addEventListener('submit', function(event) {
