@@ -80,7 +80,7 @@ $('.testimonials-slider').owlCarousel({
 
 
 // Initialize EmailJS with your User ID
-emailjs.init('xZHAmNOZ37EXmxN51'); // Replace with your EmailJS User ID
+emailjs.init('KIAfXZOiHIr7gRIYl'); // Replace with your EmailJS User ID
 
 // Form submission handler
 document.getElementById('contact-form').addEventListener('submit', function(event) {
@@ -93,7 +93,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     responseMessage.textContent = 'Sending...';
 
     // Send the form data using EmailJS
-    emailjs.sendForm('service_zrjq9ut', 'template_d3l67vo', form) // Replace placeholders
+    emailjs.sendForm('service_5jiulyv', 'template_vcbbrie', form) // Replace placeholders
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
             responseMessage.textContent = 'Your message has been sent successfully!';
